@@ -1,15 +1,16 @@
-{ "name" : "request"
-, "description" : "Simplified HTTP request client."
-, "tags" : ["http", "simple", "util", "utility"]
+{ "name" : "requestpp"
+, "description" : "Simplified HTTP/HTTPP request client."
+, "tags" : ["http", "httpp", "simple", "util", "utility"]
 , "version" : "2.14.1"
 , "author" : "Mikeal Rogers <mikeal.rogers@gmail.com>"
+, "maintainer" : "Tom Zhou <zs68j2ee@gmail.com>"
 , "repository" :
   { "type" : "git"
-  , "url" : "http://github.com/mikeal/request.git"
+  , "url" : "http://github.com/InstantWebP2P/requestpp.git"
   }
 , "bugs" :
-  { "url" : "http://github.com/mikeal/request/issues" }
-, "engines" : ["node >= 0.3.6"]
+  { "url" : "http://github.com/InstantWebP2P/requestpp/issues" }
+, "engines" : ["node >= 0.8.0"]
 , "main" : "./main"
 , "dependencies": { "form-data":"~0.0.3", "mime":"~1.2.7" }
 , "bundleDependencies": ["form-data", "mime"]
