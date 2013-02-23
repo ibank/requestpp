@@ -1,16 +1,16 @@
-# Request -- Simplified HTTP request method
+# Request -- Simplified HTTP/HTTPP request method
 
 ## Install
 
 <pre>
-  npm install request
+  npm install requestpp
 </pre>
 
 Or from source:
 
 <pre>
-  git clone git://github.com/mikeal/request.git 
-  cd request
+  git clone git://github.com/InstantWebP2P/requestpp.git
+  cd requestpp
   npm link
 </pre>
 
